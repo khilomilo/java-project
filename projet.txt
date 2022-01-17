@@ -1,0 +1,42 @@
+gestionnaire:
+ Strint idGestionnaire
+ String nomComplet
+ String telephone;
+ String address;
+ Service service;
+service:
+ String idService;
+ String nom;
+ Gestionnaire gestionnaire;
+ ArrayList<Produit> produit;
+ 
+commande:
+ String idCommande;
+ Map(Produit qté); 
+ achatProduit(int qté) (enregistre l'achat d'un produit)
+ 
+ 
+Produit:
+ String idProduit;
+ String nom;
+ int quantité;
+ Service service;
+ Boolean statut;
+ achatproduit(int qté) (enregistre l'achat d'un produit)
+ activer()(changer le statut)
+ 
+
+
+Authentification
+ bouttonn se connecter
+ boutton quitter
+
+Service:
+ list de produit/statut/quantité/point indicateur de statut
+ boutton ajouter nouveau produit
+ boutton supprimer produit
+ boutton modifier (quantité statut)
+Commande:
+ 
+
+
